@@ -1,0 +1,103 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  padding: 20px;
+}
+.container{
+  width: 500px;
+  height: 375px;
+  margin: center;
+  box-shadow: -11px -5px 72px 0px rgba(0,0,0,0.43);
+  border-radius: 5px;
+  overflow: hidden;
+  font-Family: 'Karla';
+}
+h2,h4,p{
+  margin:  0;
+}
+.top-part{
+  
+  width: 100%;
+  height: 45%;
+  padding: 20px;
+}
+.low-part{
+  height: 55%;
+  width: 100%;
+  color: white;
+}
+.left-low{
+  display: inline-block;
+  background-color: #2AB2AF;
+  margin-right: auto;
+  width:50%;
+  height:100%;
+  vertical-align:top;
+   padding: 20px;
+}
+.right-low{
+  display: inline-block;
+  margin-left: auto;
+  width:50%;
+  height:100%;
+  vertical-align:top;
+  background-color: #1ac9c5;
+  padding: 20px;
+  font-size:1.5rem;
+}
+.top-part h4{
+  color: #C0DF34;
+  margin-bottom: 5px;
+}
+.top-part h2{
+  color: #2AB2AF;
+  margin-bottom: 10px;
+}
+.top-part p{
+  color: #98A6BD;
+}
+button{
+  background-color: #C0DF34;
+  color: white;
+  border: none;
+  width: 100%;
+  padding:10px;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color:yellow;
+  scale:1.029;
+}
+
+#price{
+  font-weight:700;
+  display: inline-block;
+  margin-right:5px;
+
+}
+.left-low h4{
+  margin-bottom: 15px;
+}
+
+.left-low #period{
+  display: inline-block;
+  opacity:0.6;
+}
+
+.list{
+  list-style: none;
+  padding: 0;
+  font-size:0.8rem;
+  opacity:0.6;
+}
+.left-low p{
+  margin-bottom: 30px;
+}
+.whole-price{
+  margin-bottom: 10px
+}
