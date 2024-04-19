@@ -8,12 +8,9 @@ body{
   padding: 20px;
 }
 .container{
-  width: 500px;
-  height: 375px;
   margin: center;
   box-shadow: -11px -5px 72px 0px rgba(0,0,0,0.43);
   border-radius: 5px;
-  overflow: hidden;
   font-Family: 'Karla';
 }
 h2,h4,p{
@@ -32,17 +29,17 @@ h2,h4,p{
 }
 .left-low{
   display: inline-block;
+  width:100%;
   background-color: #2AB2AF;
   margin-right: auto;
-  width:50%;
   height:100%;
   vertical-align:top;
    padding: 20px;
 }
 .right-low{
   display: inline-block;
+  width:100%;
   margin-left: auto;
-  width:50%;
   height:100%;
   vertical-align:top;
   background-color: #1ac9c5;
@@ -100,4 +97,13 @@ button:hover{
 }
 .whole-price{
   margin-bottom: 10px
+}
+@media(min-width:576px){
+  .container {
+    width:550px;
+    height: 400px;
+  }
+  .left-low,.right-low{
+    width: 50%;
+  }
 }
