@@ -13,7 +13,6 @@ body{
   margin: center;
   box-shadow: -11px -5px 72px 0px rgba(0,0,0,0.43);
   border-radius: 5px;
-  overflow: hidden;
   font-Family: 'Karla';
 }
 h2,h4,p{
@@ -100,4 +99,16 @@ button:hover{
 }
 .whole-price{
   margin-bottom: 10px
+}
+@media(max-width:576px){
+  .left-low{
+    width:100%;
+  }
+  .right-low{
+    width:100%;
+  }
+  .container{
+    width:100%;
+    height: auto;
+  }
 }
